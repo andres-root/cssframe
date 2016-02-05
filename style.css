@@ -18,8 +18,8 @@ body {
 .frames > .frame.animated {
 	/*-webkit-animation: fade .1s infinite;
 	animation: fade .1s infinite;*/
-	-webkit-animation: fade .1s .1s infinite;
-	animation: fade .1s .1s infinite;
+	-webkit-animation: fade .5s .5s infinite;
+	animation: fade .5s .5s infinite;
 }
 
 @keyframes fadea {
@@ -37,22 +37,42 @@ body {
     opacity: 0;
   }
 
-  5% {
+	10% {
+	  opacity: .1;
+	}
+	
+	20% {
 	  opacity: .2;
 	}
 	
-	15% {
+	30% {
+	  opacity: .3;
+	}
+
+	40% {
 	  opacity: .4;
 	}
 	
-	25% {
+	50% {
+	  opacity: .5;
+	}
+
+	60% {
+	  opacity: .6;
+	}
+	
+	70% {
+	  opacity: .7;
+	}
+
+	80% {
 	  opacity: .8;
 	}
-	
+
 	90% {
-	  opacity: 1;
+	  opacity: .9;
 	}
-	
+
 	100% {
 	  opacity: 1;
 	}
