@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.frames {
+	background-color: black;
+	height: 683px;
+	width: 1276px;
+}
+
+.frames > .frame {
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.frames > .frame.animated {
+	-webkit-animation: fadein .1s infinite;
+	animation: fadein .1s infinite;
+}
+
+@keyframes fadein {
+  from {
+  	opacity: 0;
+  }
+  
+  to {
+  	opacity: 1;
+  }
+}
