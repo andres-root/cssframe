@@ -4,7 +4,7 @@ body {
 }
 
 .frames {
-	background-color: black;
+	background-color: white;
 	height: 683px;
 	width: 1276px;
 }
@@ -22,14 +22,40 @@ body {
 	animation: fade .1s .1s infinite;
 }
 
+@keyframes fadea {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
 @keyframes fade {
-  from {
-  	opacity: 1;
+  0% {
+    opacity: 0;
   }
-  
-  to {
-  	opacity: 1;
-  }
+
+  5% {
+	  opacity: .2;
+	}
+	
+	15% {
+	  opacity: .4;
+	}
+	
+	25% {
+	  opacity: .8;
+	}
+	
+	90% {
+	  opacity: 1;
+	}
+	
+	100% {
+	  opacity: 1;
+	}
 }
 
 @-webkit-keyframes fades {
