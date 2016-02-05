@@ -18,13 +18,15 @@ body {
 .frames > .frame.animated {
 	/*-webkit-animation: fade .1s infinite;
 	animation: fade .1s infinite;*/
-	-webkit-animation: fade .5s .5s infinite;
-	animation: fade .5s .5s infinite;
+	-webkit-animation: fadea .1s .1s infinite;
+	animation: fadea .1s .1s infinite;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 
 @keyframes fadea {
 	from {
-		opacity: 0;
+		opacity: 1;
 	}
 
 	to {

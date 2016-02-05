@@ -7,10 +7,11 @@
 	frame.style.backgroundImage = 'url(img/' + image + ')';
 
 	function animate() {
-		if (frameNumber == 65) {
+		if (frameNumber == 10) {
 			frameNumber = 0;
 		}
 		frameNumber += 1
+		console.log(frameNumber);
 		image = (frameNumber) + frameExt;
 		frame.style.backgroundImage = 'url(img/' + image + ')';
 	}
