@@ -7,7 +7,7 @@
 	frame.style.backgroundImage = 'url(img/' + image + ')';
 
 	function animate() {
-		if (frameNumber == 100) {
+		if (frameNumber == 65) {
 			frameNumber = 0;
 		}
 		frameNumber += 1
