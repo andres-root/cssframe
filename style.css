@@ -8,8 +8,8 @@ body {
   background-image: url('img/frames/1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-	height: 683px;
-	width: 1276px;
+	height: 100vh;
+	width: 100vw;
 }
 
 .hrt-animated-video > .frame {
@@ -17,6 +17,7 @@ body {
 	background-position: 100%;
 	background-size: cover;
 	height: 100%;
+	opacity: 0;
 	position: absolute;
 	width: 100%;
 }
