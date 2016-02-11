@@ -3,23 +3,36 @@ body {
 	padding: 0;
 }
 
-.frames {
-	background-color: white;
+.hrt-animated-video {
+  background-repeat: no-repeat;
 	height: 683px;
 	width: 1276px;
 }
 
-.frames > .frame {
+.hrt-animated-video > .frame {
 	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
 }
 
-.frames > .frame.animated {
-	-webkit-animation: fadea .1s .1s infinite;
-	animation: fadea .1s .1s infinite;
+.hrt-animated-video > .frame.played {
+	-webkit-animation: play .1s infinite;
+	animation: play .1s infinite;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+  z-index: 100;
+}
+
+.hrt-animated-video > .frame.post {
+  z-index: 10;
+}
+
+@keyframes play {
+  100% {
+    opacity: 100%;
+  }
 }
 
 @keyframes fadea {
