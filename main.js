@@ -6,9 +6,9 @@
   var frame = document.querySelector('.hrt-animated-video .frame');
   var postframe = document.querySelector('.hrt-animated-video .frame.post');
   var image = frameNumber + frameExt;
-  postframe.style.backgroundImage = 'url(../../img/frames/' + (frameNumber + 2) + frameExt + ')';
-  console.log('url(../../img/frames/' + (frameNumber + 2) + frameExt + ')');
-  frame.style.backgroundImage = 'url(../../img/frames/' + image + ')';
+  postframe.style.backgroundImage = 'url(img/frames/' + (frameNumber + 2) + frameExt + ')';
+  console.log('url(img/frames/' + (frameNumber + 2) + frameExt + ')');
+  frame.style.backgroundImage = 'url(img/frames/' + image + ')';
 
   function animate() {
     if (frameNumber == 48) {
@@ -16,8 +16,8 @@
     }
     frameNumber += 1
     image = (frameNumber) + frameExt;
-    postframe.style.backgroundImage = 'url(../../img/frames/' + (frameNumber + 1) + frameExt + ')';
-    frame.style.backgroundImage = 'url(../../img/frames/' + image + ')';
+    postframe.style.backgroundImage = 'url(img/frames/' + (frameNumber + 1) + frameExt + ')';
+    frame.style.backgroundImage = 'url(img/frames/' + image + ')';
 
   }
 
