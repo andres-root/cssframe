@@ -11,6 +11,8 @@ body {
 
 .hrt-animated-video > .frame {
 	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: cover;
 	height: 100%;
 	width: 100%;
 }
