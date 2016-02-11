@@ -4,7 +4,6 @@ body {
 }
 
 .hrt-animated-video {
-  background-color: white;
   background-image: url('img/frames/1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
