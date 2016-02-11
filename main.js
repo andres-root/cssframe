@@ -17,6 +17,7 @@
       if (iteration < 2) {
 				iteration += 1;
   			document.querySelector('.hrt-animated-video').style.backgroundImage = 'none';
+  			frame.style.opacity = 1;
       }
     }
     frameNumber += 1
